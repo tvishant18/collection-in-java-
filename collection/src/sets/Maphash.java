@@ -13,7 +13,7 @@ public class Maphash {
 		map.put("employee name", "vishant");
 		System.out.println(map);
 		Set<String>	keyset1=map.keySet();
-		Iterator itr1 =keyset1.iterator();
+		Iterator<String> itr1 =keyset1.iterator();
 		while(itr1.hasNext()){
 			String key1=(String) itr1.next();
 			System.out.println("Key="+key1);
@@ -24,7 +24,7 @@ public class Maphash {
 		map.put("employee name", "Yashasvi");
 		System.out.println(map);
 	Set<String>	keyset=map.keySet();
-	Iterator itr =keyset.iterator();
+	Iterator<String> itr =keyset.iterator();
 	while(itr.hasNext()){
 		String key=(String) itr.next();
 		System.out.println("Key="+key);

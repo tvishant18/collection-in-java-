@@ -17,7 +17,7 @@ public class Sethashtree2 {
 	 //  for(String x:set)
 	//	   System.out.println(x);
 	// second way
-	   Iterator itr =set.iterator();
+	   Iterator<String> itr =set.iterator();
 	   while(itr.hasNext())
 System.out.println(itr.next());	   
 		

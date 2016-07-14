@@ -2,13 +2,12 @@
 package collection;
 // properties or functions of arraylist
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class Set1arraylist3 {
 
 	public static void main(String[] args) {
-		List<Integer> mylist=new ArrayList();
+		List<Integer> mylist=new ArrayList<Integer>();
         mylist.add(5);
         mylist.add(6);
         mylist.add(7);

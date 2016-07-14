@@ -3,13 +3,12 @@ package collection;
 // properties or functions of arraylist
 
 
-import java.util.Iterator;
 import java.util.LinkedList;
 
 public class setlinklist1 {
 
 	public static void main(String[] args) {
-		LinkedList<String> mylist=new LinkedList();
+		LinkedList<String> mylist=new LinkedList<String>();
         mylist.add("vishant");
         mylist.add("yashasvi");
         mylist.add("ritu");
