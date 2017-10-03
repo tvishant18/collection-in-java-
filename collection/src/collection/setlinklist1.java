@@ -8,6 +8,7 @@ import java.util.LinkedList;
 public class setlinklist1 {
 
 	public static void main(String[] args) {
+		// where insertion order is required
 		LinkedList<String> mylist=new LinkedList<String>();
         mylist.add("vishant");
         mylist.add("yashasvi");
